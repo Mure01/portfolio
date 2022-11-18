@@ -1,0 +1,178 @@
+@media only screen and (min-width: 481px) and (max-width: 767px){
+	header {
+		min-height: 70px;
+	}
+	#clanak_header{
+		position: fixed;
+	}
+	header .ukloniti_mobitel{
+		display: none;
+	}
+	header .dodati_mobitel_kucica{
+		display: block;
+		float: left;
+	}
+	header .dodati_mobitel_h3{
+		display: block;
+		background-color: transparent;
+		border: none;
+		text-transform: uppercase;
+		width: fit-content;
+		font: 16px sans-serif;
+		margin-left: 20px;
+	}
+	header img {
+		margin-top: 90px;
+		width: 300px;
+		height: 300px;
+		position: absolute;
+		margin-left: 50%;
+		transform: translateX(-50%);
+		margin-right: auto;
+	}
+	#slika_header_blog{
+		display: none;
+	}
+	header nav {
+		width: 100%;
+		margin-top: 10px;
+	}
+	header nav ul {
+		width: 100%;
+	}
+	header nav ul li {
+		padding: 0 0 0 19px;
+	}
+	header form {
+		display: none;
+	}
+
+	#naslov h1 {
+		width: 100%;
+		padding-top: 440px;
+	}
+	#naslov img{
+		display: none;
+	}
+	aside {
+		display: none;
+	}
+	main {
+		width: 100%;
+	}
+	#biografija .ukloniti_mobitel{
+		display: none;
+	}
+	#biografija .dodati_mobitel{
+		display: block;
+		float: left;
+		margin-right: 0;
+	}
+	#biografija p{
+		padding: 10px;
+	}
+	#obrazovanje{
+		margin-bottom: 20px;
+	}
+	.skill_lista{
+		width: 80%;
+		margin-left:7%;
+	}
+	.soft_skill_lista{
+		width: 80%;
+		margin-left: 7%;
+	}
+	#maturski_rad .slika1{
+		margin-left: 0;
+	}
+
+	#projekti table {
+		width: 90%;
+		margin-left: 5%;
+	}
+	#projekti table td {
+		width: 100%;
+		padding: 0;
+	}
+	#projekti .ukloniti_mobitel {
+		display: none;
+	}
+	#projekti .dodati_mobitel{
+		display: block;
+	}
+	#kontakt ul {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	#kontakt form {
+		width: 90%;
+		float: left;
+		margin-right: 0;
+		padding: 0;
+		margin-left: 5%;
+	}
+	footer ul {
+		margin-left: 0;
+		padding: 0;
+	}
+	footer p {
+		text-align: left;
+	}
+	footer .footer_pocetna {
+		margin: 0;
+	}
+	footer .ukloniti_mobitel{
+		display: none;
+	}
+	#blog {
+		padding-top: 70px;
+	}
+	.clanak .ukloniti_mobitel{
+		display: none;
+	}
+	.clanak .dodati_mobitel{
+		display: block;
+	}
+	#main_clanak {
+		width: 100%;
+		padding-top: 100px;
+		padding-left: 0;
+	}
+	#main_clanak table{
+		width: 80%;
+		margin-top: 20px;
+	}
+
+	#galerija1 figure{
+		width: 45%;
+	}
+
+	.galerija2 {
+		min-height: 700px;
+	}
+	.slika{
+		height: 600px;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 580px){
+	
+	header nav ul li{
+		padding: 5px;
+	}
+	header .dodati_mobitel_h3{
+		width: 100px;
+	}
+
+	#obrazovanje .ukloniti_mobitel{
+		display: none;
+	}
+	#obrazovanje .dodati_mobitel {
+		display: block;
+		height: 500px;
+		overflow-y: auto;
+	}
+} 
+
+

@@ -1,0 +1,80 @@
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+	header img {
+		margin-left: 5%;
+	}
+	header nav {
+		width: 100%;
+	}
+	header nav ul {
+		width: 70%;
+		margin-left: 20%;
+	}
+	header nav ul li {
+		padding: 0 0 0 20px;
+	}
+	header form {
+		margin-right: 2%;
+	}
+	header form input{
+		width: 120px;
+	}
+
+	#naslov img {
+		width: 38%;
+		margin-right: 2%;
+	}
+
+	#biografija .ukloniti_mobitel{
+		display: none;
+	}
+	#biografija .dodati_mobitel{
+		display:block ;
+		padding: 30px;
+	}
+	#biografija table tr td p img{
+		border-radius: 50%;
+	}
+
+	.skill_lista{
+		margin-left: 3%;
+	}
+	.soft_skill_lista{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#projekti table td {
+		padding: 0;
+	}
+
+	#kontakt ul {
+		margin-left: 5%;
+	}
+	#kontakt form{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#kontakt form input[name=ime]{
+		width: 90%;
+	}
+	#kontakt form input[name=prezime]{
+		float: left;
+		width: 90%;
+	}
+
+	#aside_clanak{
+		margin-right: 35px;
+	}
+	footer p {
+		text-align: initial;
+	}
+}
+@media only screen and (min-width:768) and (max-width: 900px){
+	header form {
+		width: 100px;
+	}
+	header form input{
+		width: 100%;
+	}
+}

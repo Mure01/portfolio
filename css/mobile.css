@@ -1,0 +1,438 @@
+@media only screen and (max-width: 480px){
+	
+
+
+	/*header*/
+
+	header{
+		padding: 0;
+	}
+	header nav{
+		margin-top: 0;
+		position:fixed;
+		text-align: left;
+		width: 100%;
+		left: 0;
+		display: block;
+		transform: translateY(0);
+		background-color: #ddd;
+	}
+	header nav #myLinks{
+		display: none;
+	}
+	header nav ul .fa{
+		color: #e65e15;
+		padding-right: 40px;
+		padding-top:15px ;
+	}
+	header nav ul li .fa {
+ 	padding: 0;
+ 	}
+ 	header nav ul #myLinks .fa {
+ 		color: #000;
+ 	}
+	header nav a.icon {
+  		background: transparent;
+  		display: block;
+  		position: absolute;
+  		right: 0;
+  		top: 0;
+	}
+	header nav .dodati_mobitel{
+		margin: 0;
+	}
+	.dodati_mobitel_kucica {
+		display: block;
+	}
+	header nav ul li .dodati_mobitel_h3{
+		margin-left: 15px;
+		display: block;
+		margin-top: -17px;
+		background-color: transparent;
+		border: 0;
+		text-transform: uppercase;
+	}
+
+	header option {
+		background-color: #c1cadb;
+	}
+	header nav ul {
+		text-align: left;
+		float: left;
+		margin-top: 0px;
+		padding-top: 10px;
+	}
+	header nav ul li{
+		display: table;
+		margin-top: 0;
+		padding: 5px 0 5px 0;
+	}
+	header input {
+		display: none;
+	}
+	header img{
+		width: 200px;
+		height: 200px;
+		margin-top:70px;
+		position: absolute;
+		margin-left: 50%;
+		transform: translate(-50%);
+		border-radius: 50%;
+	}
+	header .dodati_mobitel{
+		display: block;
+		float: left;
+		margin-right: 80px;
+		margin-top: 50px;
+	}
+
+
+
+
+	aside {
+		display: none;
+	}
+	main {
+		width: 100%;
+	}
+	main h2{
+		width: 100%;
+	}
+
+
+	/* naslov */
+
+	#naslov{
+		margin-bottom: 50px;
+	}
+	#naslov h1 {
+		overflow: hidden;
+		font-size: 35px;
+		margin-left: 50%;
+		transform: translateX(-50%);
+		text-align: center;
+		margin-top: 300px;
+		padding-top: 0;
+		width: 80%;
+	}
+	#naslov a i {
+		font-size: 40px;
+		padding-top: 150px;
+		margin-left: 50%;
+		transform: translateX(-50%);
+		color: #e65e15;
+	}
+
+
+
+
+	/*biografija*/
+	#biografija .ukloniti_mobitel{
+		display: none;
+	}
+	main #biografija {
+		height: auto;
+	}
+	#biografija h2{
+		height: 60px;
+		background-color: #3a7065;
+		padding-top: 30px;
+		padding-left:30px;
+		color: #fff;
+		margin-top: auto;
+		overflow: hidden;
+	}
+	#biografija table{
+		text-align: center;
+	}
+	#biografija p {
+		width: 90%;
+		float: left;
+		text-align: center;
+		margin: 0;
+		padding: 10px;
+		margin-bottom: 50px;
+	}
+	
+	
+	#biografija .dodati_mobitel{
+		display: block;
+		margin-top: 0;
+		padding-top: 0;
+		width: 100%;
+		height: 300px;
+		float: left;
+		margin-left: 5%;
+		border-radius: 20px;
+		margin-bottom: 30px;
+	}
+	#biografija img {
+		margin: 0;
+	}
+	.ukloniti_mobitel{
+		display: none;
+	}
+	.dodati_mobitel{
+		display: block;
+	}
+
+
+
+	/*obrazovanje*/
+
+	#obrazovanje h2{
+		height: 60px;
+		background-color: #3a7065;
+		padding-top: 30px;
+		padding-left:30px;
+		color: #fff;
+		margin-top: auto;
+		overflow: hidden;
+	}
+	#obrazovanje .dodati_mobitel_h3{
+		display: block;
+	}
+	#obrazovanje h3 {
+		text-align: center;
+		text-transform: uppercase;
+		height: auto;
+	}
+
+	#obrazovanje .dodati_mobitel{
+		display: block;
+		height: 450px;
+		overflow-y: auto;
+	}
+	#obrazovanje .dodati_mobitel .obrazovna_tabela{
+		width: 90%;
+		border: outset;
+		float: left;
+		margin-top: 0;
+		margin-left: 5%;
+	}
+	.soft_skill_lista{
+		margin-bottom: 50px;
+		margin-right: 0;
+	}
+	.soft_skill_lista h3 {
+		padding-left: 0 ;
+	}
+	
+	#obrazovanje caption{
+		text-align: center;
+		padding: 0;
+	}
+
+	#obrazovanje .skill_lista{
+		width: 77%;
+		margin-left: 5%;
+		float: left;
+	}
+	#obrazovanje .soft_skill_lista{
+		width: 77%;
+		margin-left: 5%;
+		float: left;
+		margin-top: 0;
+	}
+
+
+
+	/*maturski rad*/
+	#maturski_rad{
+		margin-top:auto;
+	}
+	#maturski_rad h2 {
+		height: 60px;
+		background-color: #3a7065;
+		padding-top: 30px;
+		padding-left:30px;
+		color: #fff;
+		margin-top: auto;
+		overflow: hidden;
+	}
+	#maturski_rad h3 {
+		margin-top: auto;
+		text-align: center;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#maturski_rad p{
+		width: 90%;
+		text-align: center;
+	}
+	#maturski_rad .slika1{
+		float: left;
+		margin: 0;
+		width: 100%;
+	}
+	#maturski_rad .slika1  img {
+		width: 90%;
+	}
+
+
+	/*projekti*/
+	#projekti h2{
+		padding-left: 30px;
+	}
+	#projekti table {
+		width: 90%;
+		float: left;
+		margin: 0;
+		margin-left: 5%;
+		margin-bottom: 5%;
+	}	
+	#projekti .dodati_mobitel {
+		display: block;
+	}
+	#projekti table td {
+		width: 100%;
+		padding: 10px 0 10px 0;
+		text-align: center;
+	}
+	#projekti table img {
+		width: 200px;
+		height: 200px;
+	}
+
+
+
+	/*kontakt*/
+	#kontakt h2 {
+		padding-left: 30px;
+	}
+	#kontakt ul{
+		float: left;
+		margin: 0;
+		width: 80%;
+		text-align:center;
+	}
+	#kontakt ul li{
+		width: 100%;
+		padding:10px 0 10px 0;
+	}
+	#kontakt form {
+		width: 80%;
+		text-align: left;
+		margin-left: 5%;
+		margin-right: 0;
+		float: left;
+	}
+	#kontakt form input[name=ime]{
+		width: 90%;
+	}
+	#kontakt form input[name=prezime]{
+		width: 90%;
+		float: left;
+	}
+
+	/*bloog*/
+
+	#blog {
+		width: 100%;
+		margin: 0;
+		padding-top: 50px;
+		text-align: center;
+	}
+
+	.clanak {
+		width: 100%;
+		padding: 0;
+	}
+	.clanak table td{
+		line-height: normal;
+	}
+	.clanak table img {
+		width: 90%;
+		margin-left: 5%;
+		margin-bottom: 10px;
+	}
+	.dodati_mobitel_blog{
+		display: block;
+	}
+	#autor img {
+		margin-left: 0;
+	}#slika_header_blog img {
+		display: none;
+	}
+
+	/*CLANAK*/
+
+	#main_clanak{
+		width: 100%;
+		padding: 0;
+		padding-top: 50px;
+		margin-bottom: 50px;
+	}
+	#main_clanak table {
+		width: 80%;
+		margin-top: 20px;
+	}
+	#main_clanak img {
+		width: 90%;
+	}
+	#main_clanak ul{
+		margin-left: 5%;
+	}
+	/*Galerija 1*/
+
+	#galerija1 {
+		padding-top: 50px;
+		float: none;
+	}
+
+	#galerija1 figure {
+		width: 95%;
+		margin-bottom: 0;
+	}
+
+	/*Galerija 2*/
+
+	#galerija2{
+		padding-top: 50px;
+		width: 100%;
+	}
+
+	.galerija2 {
+		width: 90%;
+		min-height: auto;
+	}
+	.slika{
+		height: auto;
+	}
+	.slika img {
+		width: 100%;
+		height: 300px;
+	}
+	.slika video {
+		height: 300px;
+	}
+	.prev, .next {
+		top: 350px;
+		background-color: transparent;
+	}
+	.next{
+		right: 5%;
+	}
+	.prev{
+		left: 5%;
+	}
+	/*footer*/
+	footer{
+		height: auto;
+	}
+	footer ul {
+		margin: 0;
+		padding: 0;
+	}
+	footer p {
+		float: left;
+		text-align: center;
+		margin-left: 10px;
+	}
+	footer .footer_pocetna{
+		bottom: 30px;
+		right: 0;
+		font-size: 25px;
+		margin-right: 35px;
+	}
+}
