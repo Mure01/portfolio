@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Muratovic Belmin - Portfolio</title>
+	<link rel="icon" type="image/x-icon" href="img/ikona1.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style1024-1206.css">
+	<link rel="stylesheet" type="text/css" href="css/style768-1024.css">
+	<link rel="stylesheet" type="text/css" href="css/style480-768.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	<!--za ikonice-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--Za funkciju hide i show za aside prikaz nakon skrolanja-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+		<header>
+			<a href="index.html" id="slika_header"><img src="img/header1.jpg" alt="Portret slika"></a>
+			<nav>		
+				<ul>
+					<li><a href="index.html" class="ukloniti_mobitel"><strong> <span class="oznaceno"><i class="fa fa-home"> Početna </i></span></strong></a>
+						<div class="dodati_mobitel_kucica">	<i class="fa fa-home"></i> </div>
+						<select class="dodati_mobitel_h3" onchange="window.location.href=this.value">
+							<option value="index.html"><i class="fa fa-home"></i> Početna</option>
+							<option value="index.html#biografija_naslov">Biografija</option>
+							<option value="index.html#obrazovanje_naslov">Obrazovanje</option>
+							<option value="index.html#maturski_rad_naslov">Maturski rad</option>
+							<option value="index.html#projekti_naslov">Projekti</option>
+							<option value="index.html#kontakt_naslov">Kontakt</option>
+						</select>
+					</li>
+					<div id="myLinks" class="dodati_mobitel"> 
+					<li><a href="blog.html"><i class="fa fa-book"></i> Blog</a></li>
+					<li><a href="gallery1.html"><i class="fa fa-futbol-o"> </i> Fudbal</a></li>
+					<li><a href="gallery2.html"><i class="fa fa-camera"> </i> Divlja ljepota</a></li>
+					</div>
+					<a href="javascript:void(0);" class="icon dodati_mobitel"  onclick="myFunction()">
+    <i class="fa fa-bars"></i> </a>
+				</ul>
+			</nav>
+			<form >
+      <input type="text" placeholder="Search.." name="search">
+       </form>
+		</header>
+
+			<section id="naslov">
+				<h1><span class="oznaceno">Belmin Muratović  </span>  <br>student informacionih tehnologija</h1>
+				<img src="img/header1.jpg" alt="Portret slika" class="ukloniti_mobitel"><br>
+				<a href="#biografija"><i class="fa fa-angle-double-down"></i></a>
+			</section>
+		<div id="show_aside">
+		<aside id="aside">
+			<ul>
+				<li><a href="#biografija">BIOGRAFIJA</a></li>
+				<li><a href="#obrazovanje">OBRAZOVANJE</a></li>
+				<li><a href="#maturski_rad">MATURSKI RAD</a></li>
+				<li><a href="#projekti">PROJEKTI</a></li>
+				<li><a href="#kontakt">KONTAKT</a></li>
+			</ul>
+		</aside>
+	</div>
+
+		<main>
+			<section id="biografija" >
+				<h2 id="biografija_naslov">BIOGRAFIJA</h2>
+				<table>
+					<tr>
+						<td><p>
+					<img src="img/omeni.jpg" class="dodati_mobitel" alt="Portret slika">
+					<strong>O MENI</strong><br><br>
+					Ja sam Belmin Muratović, imam 21 godinu. Rođen sam 09.11.2001 u Travniku. Pohađao Osnovnu školu
+					"Vitez" u Vitezu. Nakon toga sam se opredjelio za Mješovitu Srednju Tehhničku Školu "Travnik" u Travniku
+					gdje je moja ljubav prema računarima bila upotpunjena uz smjer računarstvo i informatika, gdje sam završio
+					kao učenik generacije. Nakon mog Srednjeg obrazovanja moja sljedeća etapa je započeta u Sarajevu i još traje
+					na informacionim tehnologijama, Prirodno-matematičkog fakulteta. Pored školovanja i edukacije sportski sam aktivan kao član
+					Fudbalskog kluba "Vitez" u Vitezu. <br><br>
+					<strong>ZAŠTO PROGRAMIRANJE?</strong><br><br>
+					U djetinjstvu, provodio sam mnogo vremena igrajući video igre kao i svako dijete. Uz te kompjuterske video igre budi se
+					radoznalost o njihovom nastanku, funkcionisanju i šta je iza scena? U ranom periodu tinejdžerstva otkrio sam da za sve igre
+					postoji kodna funkcija, gdje imaju posebni programi pomoću kojih se igrice kreiraju i usavršavaju. Tad sam otkrio C++, C#, Java, 
+					JavaScript i slične. Nakon otkrića samostalno sam pokušao kreirati par video igrica. Neke od njih su old-school igre inspirisane
+					brendom Miniclip. Nakon toga ostalo je istorija...
+					</p></td>
+					<td class="ukloniti_mobitel"><figure>
+					<img src="img/omeni.jpg" alt="Portret slika" class="ukloniti_mobitel">
+					</figure>
+					</td>
+					</tr>
+				</table>
+			</section>
+			<section id= "obrazovanje">
+				<h2 id="obrazovanje_naslov">OBRAZOVANJE</h2>
+				<div class="ukloniti_mobitel">
+				<table class="obrazovna_tabela">
+						<caption><h3>strukturalno obrazovanje</h3></caption>
+						<tr>
+							<td></td>
+							<th>Osnovnoškolsko obrazovanje</th>
+							<th>Srednješkolsko obrazovanje 	</th>
+							<th>Univerzitetsko obrazovanje</th>
+						</tr>
+						<tr>
+							<th>Naziv ustanove:</th>
+							<td>OŠ "Vitez" u Vitezu</td>
+							<td>MSTŠ Travnik</td>
+							<td>Prirodno-matematički fakultet</td>
+						</tr>
+					
+						<tr>
+							<th>Godina upisa:</th>
+							<td>2008</td>
+							<td>2016</td>
+							<td>2022</td>
+						</tr>
+						<tr>
+							<th>Godina završavanja</th>
+							<td>2016</td>
+							<td>2020</td>
+							<td>----</td>
+						</tr>
+						<tr>
+							<th>Stepen obrazovanja:</th>
+							<td>II</td>
+							<td>IV</td>
+							<td>--</td>
+						</tr>
+						<tr>
+							<th>Adresa:</th>
+							<td>Josipa Kurevije b.b Vitez, BiH</td>
+							<td>Školska bb 72270, Travnik BiH</td>
+							<td>Zmaja od Bosne 33-35, 71000 Sarajevo BiH</td>
+						</tr>
+				</table>
+				</div>
+					<h3 class="dodati_mobitel_h3">Strukturalno obrazovanje</h3>
+
+				<div class="dodati_mobitel">
+				<table class="obrazovna_tabela">
+						<tr>
+							<td></td>
+							<th>Osnovnoškolsko obrazovanje</th>
+						</tr>
+						<tr>
+							<th>Naziv ustanove:</th>
+							<td>OŠ "Vitez" u Vitezu</td>
+						</tr>
+					
+						<tr>
+							<th>Godina upisa:</th>
+							<td>2008</td>
+						</tr>
+						<tr>
+							<th>Godina završavanja</th>
+							<td>2016</td>
+						</tr>
+						<tr>
+							<th>Stepen obrazovanja:</th>
+							<td>II</td>
+						</tr>
+						<tr>
+							<th>Adresa:</th>
+							<td>Josipa Kurevije b.b Vitez, BiH</td>
+						</tr>
+						<tr>
+							<td></td>
+							<th>Srednješkolsko obrazovanje 	</th>
+						</tr>
+						<tr>
+							<th>Naziv ustanove:</th>
+							<td>MSTŠ Travnik</td>
+						</tr>
+					
+						<tr>
+							<th>Godina upisa:</th>
+							<td>2016</td>
+						</tr>
+						<tr>
+							<th>Godina završavanja</th>
+							<td>2020</td>
+						</tr>
+						<tr>
+							<th>Stepen obrazovanja:</th>
+							<td>IV</td>
+						</tr>
+						<tr>
+							<th>Adresa:</th>
+							<td>Školska bb 72270, Travnik BiH</td>
+						</tr>
+						<tr>
+							<td></td>
+							<th>Univerzitetsko obrazovanje</th>
+						</tr>
+						<tr>
+							<th>Naziv ustanove:</th>
+							<td>Prirodno-matematički fakultet</td>
+						</tr>
+					
+						<tr>
+							<th>Godina upisa:</th>
+							<td>2022</td>
+						</tr>
+						<tr>
+							<th>Godina završavanja</th>
+							<td>----</td>
+						</tr>
+						<tr>
+							<th>Stepen obrazovanja:</th>
+							<td>--</td>
+						</tr>
+						<tr>
+							<th>Adresa:</th>
+							<td>Zmaja od Bosne 33-35, 71000 Sarajevo BiH</td>
+						</tr>
+				</table>
+				</div>
+				
+				<br>
+
+				<ul class="skill_lista"> 
+					<h3>Tehničke vještine</h3>
+					<li>
+						<p>HTML</p>
+						<progress value="85" max="100">
+					</li>
+					<li>
+						<p>CSS</p>
+						<progress value="65" max="100">
+					</li>
+					<li>
+						<p>C#</p>
+						<progress value="65" max="100">
+					</li>
+					<li>
+						<p>Python</p>
+						<progress value="45" max="100">
+					</li>
+					<li>
+						<p>C++</p>
+						<progress value="35" max="100">
+					</li>
+				</ul>
+				<ul type="square" class="soft_skill_lista">
+					<h3>Društvene vještine</h3>
+					<li>Komunikativan</li>
+					<li>Timski duh</li>
+					<li>Kreativan</li>
+					<li>Snalažljiv</li>
+					<li>Samouvjeren</li>
+				</ul>
+			</section>
+			<section id="maturski_rad" >
+				<h2 id="maturski_rad_naslov">MATURSKI RAD</h2>
+				<h3>TEMA:  Informacioni sistem za regulaciju dežurstva</h3>
+				<p>Moderna tehnologija je jednostavno postala dio našeg života. Osmišljena je da ljudima olakša život i pomogne u mnogim stvarima, kao npr. školovanju. Škole postaju modernije, opremljene računalima, projektorima, sada su popularni i e - dnevnici, a sve to ima svrhu da učenicima bude lakše, možda i da ih potakne da više uče. Tema mog maturskog rada je veoma slična e – dnevniku, informacioni sistem za regulaciju dežurstva, čime bi olakšao školski sistem što se tiče dežurstva  te problema s kojim se mnoge škole susreću u vezi dežurstva. </p>
+				<div class="slika1">
+				<img src="img/maturski_rad.jpg" alt="Slika naslovne strane maturskog rada">
+				<p>Izgled forme „Dezurstvo“</p>
+				</div>
+				<p>Maturski rad je bio iz predmeta Programiranje i programski jezici. Mentor za rad je bio profesor Mevludin Arnautović, koji trenutno radi kao Senior Software Developer u Zira-i. Moj mentor je bio osoba koja me uputila šta nastaviti studirati i gdje. Ništa ne bi bilo da ja nisam pohađao Mješovitu srednju tehničku školu "Travnik" u Travnik, koju preporučujem svakom budućem srednjoškolcu. Šta ova škola nudi pogledajte na web stranici <a href="http://msts-travnik.net/travnik/" target="_blank">MSTŠ Travnik</a> ili posjetite školu na lokaciji: Školska bb 72270, Travnik BiH. Ukoliko želite pogledati cijeli rad možete preuzeti dokumentaciju: <a href="Maturski.docx" download>Maturski rad - Belmin Muratović</a> </p>
+			</section>
+			<section id="projekti" class="full-height">
+				<h2 id="projekti_naslov">Projekti</h2>
+				<table>
+					<tr>
+						<th colspan="2">LOGIN SISTEM</th>
+					</tr>
+					<tr>
+						<td class="dodati_mobitel"><img src="img/projekat_1.png" alt="Slika projekta 1"></td>
+					</tr>
+					<tr>
+						<td class="ukloniti_mobitel"><img src="img/projekat_1.png" alt="Slika projekta 1"></td>
+						<td>
+							<p>Desktop aplikacija za prijavu i registraciju korisnika na neki sistem.</p>
+							<h4>Projekat se sastoji od:</h4>	
+								<ul>
+									<li>Početne forme za izbor prijave ili registracije</li>
+									<li>Forme za prijavu na kojoj se korisnik prijavljuje na postojeći profil čiji 
+									se podaci nalaze u povezanoj bazi podataka</li>
+									<li>Forme za registraciju gdje se korisnik registruje sa novim podacima koji 
+									se spremaju u bazu podatak i moraju da se razlikuju od postojećih u bazi podataka-</li>
+								</ul>
+							<p>Ovu aplikaciju možete pogledati na <a href="https://1drv.ms/u/s!AoFoeX-5vzNDix4W149KuheoVcWD?e=48jR20">link-u.</a>
+								Ukoliko budete imali problema, kontaktirajte me na mail: belci911mu@gmail.com.
+							</p>				
+						</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<th colspan="2">KOCKICA 1-6 (7-SEGMENTNA)</th>
+					</tr>
+					<tr>
+						<td class="dodati_mobitel"><img src="img/projekat_2.png" alt="Slika projekta 2"></td>
+					</tr>
+					<tr>
+						<td>
+						<p>Projekcija ispisa brojeva od 1 do 6 na sedmo segmentnom displeju led lampi.
+							Projekat iz impulsne i digitalne tehnike gdje se na sedmo segmentnom displeju prikazuju
+							brojevi od 1 do 6. 
+							<h4>Projekat je realiziran pomoću:</h4>
+							<ul>
+								<li>Napajanje od 5V</li>
+								<li>2 otpornika i kondenzatora, proračunatih vrijednosti</li>
+								<li>Integralnog kola - 555 timer i prekidača na izlazu istog</li>
+								<li>3 D flip flop sklopa</li>
+								<li>Nekoliko AND i OR kola</li>
+								<li>Led lampice koje su povezane tako da tri lapmice predstavljaju jedan segment</li>
+							</ul>
+							Nakon puštanja signala na prekidaču na izlazu ćemo dobiti sklop koji će ispisivati brojeve od 1 do 6. Ovaj projekat možete preuzeti na linku
+							<a href="kockica_1_6.ms12" download>KOCKICA 1-6</a>. Za dodatnu dokumentaciju se javite na mail: belci911mu@gmail.com.
+						</p>
+						</td>
+							<td class="ukloniti_mobitel">
+								<img src="img/projekat_2.png" alt="Slika projekta 2">
+							</td>
+					</tr>
+				</table>
+			</section>
+			<section id="kontakt">
+				<h2 id="kontakt_naslov">Kontakt</h2>
+				<ul>
+					<p><b>Potraži me!</b></p>
+					<li><i class="fa fa-map-marker"></i> Grbavica b.b Vitez</li>
+					<li><a href="mailto:belci911mu@gmail.com" class="posalji_mail"><i  class="fa fa-envelope-open"></i> belci911mu@gmail.com</a></li>
+					<li><a href="tel:+387603411342" class="pozovi_broj"><i class="fa fa-phone"></i>  060-34-11-342 </a></li>
+				</ul>
+				<form method="post" netlify>
+					<legend><b>Kontaktiraj me!</b></legend>
+					<input type="text" name="ime" placeholder="Vaše ime..." required>
+					<input type="text" name="prezime" placeholder="Vaše prezime..." required><br>
+					<input type="email" name="mail" placeholder="Vaš mail..." required><br>
+					<input type="text" name="naslov" placeholder="Tema..." required><br>
+					<textarea name="poruka" placeholder="Vaša poruka..." required></textarea>
+					<input type="submit" value="Pošalji">
+				</form>
+			</section>
+		</main>
+
+		<footer>
+			<ul>
+				<li><a href="https://www.facebook.com/belmin.muratovic.946"><i class="fa fa-facebook-square"></i></a></li>
+				<li><a href="https://www.instagram.com/belmin.m20/"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="https://ba.linkedin.com/in/belmin-muratovic-89b018209"><i class="fa fa-linkedin"></i></a></li>
+			</ul>
+			<p>belmin muratovic &copy 2022</p>
+			<div class="footer_pocetna">
+				<a href="#"><i class="fa fa-long-arrow-up"> <span class="ukloniti_mobitel">Pocetak</span></i></a>
+			</div>
+		</footer>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  var y = document.getElementById("slika_header")
+  if (x.style.display === "block") {
+    x.style.display = "none";
+    y.style.display = "block"
+  } else {
+    x.style.display = "block";
+    y.style.display = "none"
+  }
+}
+
+
+$('#show_aside').hide();
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 700) {
+    $('#show_aside').fadeIn();
+  } else {
+    $('#show_aside').fadeOut();
+  }
+});
+</script>
+ 
+
+</body>
+</html>
